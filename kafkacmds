@@ -5,5 +5,45 @@ kafka-topics.sh --bootstrap-server localhost:9092 --list
 
 kafka-console-consumer.sh --bootstrap-server localhost:9092 --from-beginning --topic t-commodity-order
 
+---------------------------------------------------------------------------------------------------------------
+Starting the single-node Zookeeper instance: bin/zookeeper-server-start.sh config/zookeeper.properties
+
+Starting the Kafka Server: bin/kafka-server-start.sh config/server.properties
+
+Listing the Topics available in Kafka: kafka-topics.sh --list --bootstrap-server localhost:9092
+
+Publishing message:  bin/kafka-console-producer.sh --topic demo --bootstrap-server localhost:9092
+
+bin/kafka-topics.sh --create --topic spring.boot.kafka.stream.input --bootstrap-server localhost:9092
+   kafka-topics.sh --create --topic topic1 --bootstrap-server localhost:9092
+   
+   spring.boot.kafka.stream.input
+   
+   kafka-topics.sh --create --topic spring.boot.kafka.stream.input --bootstrap-server localhost:9092
+   
+bin/kafka-console-producer.sh --topic spring.boot.kafka.stream.input --bootstrap-server localhost:9092
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+For all changing the directory
+/home/shrikar/softwares/kafka
+
+Starting the single-node Zookeeper instance: bin/zookeeper-server-start.sh ../..config/zookeeper.properties
+
+
+
+Starting the Kafka Server: bin/kafka-server-start.sh config/server.properties
+
+Listing the Topics available in Kafka: kafka-topics.sh --list --bootstrap-server localhost:9092
+
+creting topic: bin/kafka-topics.sh --create --topic quickstart-events --bootstrap-server localhost:9092
+   kafka-topics.sh --create --topic topic1 --bootstrap-server localhost:9092
+   
+
+
+Publishing message:  bin/kafka-console-producer.sh --topic demo --bootstrap-server localhost:9092
+
+consuming message: bin/kafka-console-consumer.sh --topic demo --from-beginning --bootstrap-server localhost:9092
+
+kafka-console-consumer.sh --topic spring.boot.kafka.stream.input --from-beginning --bootstrap-server localhost:9092
+
 
 

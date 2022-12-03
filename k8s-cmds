@@ -1,0 +1,27 @@
+
+kubectl version 
+
+kubectl get nodes
+
+kubectl get pods
+
+kubectl get deployments
+
+kubectl get statefulset
+
+kubectl get services
+
+kubectl get serviceaccount
+
+kubectl get configmaps
+
+kubectl get secrets
+
+*** Delete the specific or all the pods with namespace
+kubectl delete --all pods
+kubectl delete --all pods --namespace=foo
+
+*** Delete the specific or all the deployments with namespace
+kubectl delete --all deployments
+kubectl delete --all deployments --namespace=foo
+
