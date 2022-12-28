@@ -1,0 +1,63 @@
+helm ls
+helm get notes mysql-db
+helm get values mysql-db
+helm get values mysql-db --all
+helm get values mysql-db --kube-apiserver 
+
+==============================
+helm list
+helm install
+helm upgrade
+helm rollback
+helm uninsall
+helm history
+helm template
+helm get
+helm status
+
+--dry-run
+--wait
+--timeout
+--atomic
+--clean-on-fail
+
+------------------------------------------------------
+helm list
+
+helm history mysql-db
+
+kubectl get secrets
+
+helm install mysql-db mybitnami/mysql
+
+helm list
+
+helm history mysql-db
+
+kubectl get secrets
+
+helm upgrade mysql-db  mybitnami/mysql --set auth.rootPassword=myjlc123
+ 
+helm list
+
+helm history mysql-db
+
+kubectl get secrets
+
+helm upgrade mysql-db  mybitnami/mysql --set auth.rootPassword=hello123
+
+helm list
+
+helm history mysql-db
+
+kubectl get secrets
+
+helm rollback mysql-db 2
+
+helm list
+
+helm history mysql-db
+
+kubectl get secrets
+
+

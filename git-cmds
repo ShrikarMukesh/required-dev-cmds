@@ -1,0 +1,21 @@
+git init
+git add <file-name>
+git add .
+git commit -m "commit-message"
+git push origin <branch-name>
+
+---------------------------------------------------------------------------------
+creating new feature branch from main branch or any other feature branch
+git checkout -b feature_345 main
+--------------------------------------------------------------------------------
+git branch
+---------------------------------------------------------------------------------
+To List Remote branch names
+git branch -r
+---------------------------------------------------------------------------------
+Count the number of commits of particular branch
+git rev-list --count <brnach name>
+
+---------------------------------------------------------------------------------
+Delete all the brnach which are merged to master or main
+git branch --merged main | grep -v "main" | xargs -n 1 git branch -d
