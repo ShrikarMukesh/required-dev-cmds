@@ -17,5 +17,5 @@ Count the number of commits of particular branch
 git rev-list --count <brnach name>
 
 ---------------------------------------------------------------------------------
-Delete all the brnach which are merged to master or main
+Delete all the brnach which are merged to master or main`
 git branch --merged main | grep -v "main" | xargs -n 1 git branch -d
