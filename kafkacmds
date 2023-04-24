@@ -45,5 +45,11 @@ consuming message: bin/kafka-console-consumer.sh --topic demo --from-beginning -
 
 kafka-console-consumer.sh --topic spring.boot.kafka.stream.input --from-beginning --bootstrap-server localhost:9092
 
+================================================================================================================================================
+Kafka GUI installation 
+https://www.kafkatool.com/index.html --> Kafka Tool Exmp
+https://askubuntu.com/questions/38661/how-do-i-run-sh-scripts -----> Running .sh file in ubuntu
+https://stackoverflow.com/questions/61105315/not-able-to-connect-to-kafka-brokers
+
 
 

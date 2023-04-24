@@ -5,8 +5,8 @@ git commit -m "commit-message"
 git push origin <branch-name>
 
 ---------------------------------------------------------------------------------
-creating new feature branch from main branch or any other feature branch
-git checkout -b feature_345 main
+creating new feature branch from master branch or any other feature branch
+git checkout -b feature_345 master
 --------------------------------------------------------------------------------
 git branch
 ---------------------------------------------------------------------------------
