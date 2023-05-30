@@ -1,0 +1,13 @@
+
+docker exec -it kafka bash
+clearing the kafka bash cmds:
+ 1) printf "\033c"
+ 2) alias cls='printf "\033c"'
+
+1) Create a topic:
+kafka-topics.sh --create --bootstrap-server <bootstrap-server> --topic <topic-name> --partitions <num-partitions> --replication-factor <replication-factor>
+
+kafka-topics.sh --create --bootstrap-server localhost:9092 --topic kar-ele-result-2023 --partitions 2 --replication-factor 2
+Error while executing topic command : Replication factor: 2 larger than available brokers: 1.
+
+
