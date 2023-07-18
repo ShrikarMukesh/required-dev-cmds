@@ -1,0 +1,54 @@
+Top 50 Linux cmds
+
+1. `ls`: List files and directories.
+2. `cd`: Change directory.
+3. `pwd`: Print working directory.
+4. `mkdir`: Create a new directory.
+5. `rmdir`: Remove a directory (if empty).
+6. `rm`: Remove files or directories.
+7. `touch`: Create an empty file or update the timestamp.
+8. `cp`: Copy files or directories.
+9. `mv`: Move or rename files or directories.
+10. `cat`: Concatenate and display file content.
+11. `more`/`less`: Paginate file content.
+12. `head`: Display the beginning of a file.
+13. `tail`: Display the end of a file.
+14. `grep`: Search for patterns in files or output.
+15. `find`: Find files and directories.
+16. `chmod`: Change file permissions.
+17. `chown`: Change file ownership.
+18. `ps`: List running processes.
+19. `top`: Display system resource usage and running processes.
+20. `kill`: Terminate processes by their PID.
+21. `killall`: Terminate processes by name.
+22. `ifconfig`: Display network interface information (deprecated, use `ip` instead).
+23. `ip`: Display network interface information and configure networking.
+24. `ping`: Send ICMP echo requests to a host.
+25. `ssh`: Secure Shell client to connect to remote systems.
+26. `scp`: Securely copy files between local and remote systems.
+27. `wget`: Download files from the web.
+28. `tar`: Archive files using tar.
+29. `gzip`: Compress files using gzip.
+30. `unzip`: Unzip compressed files.
+31. `df`: Display disk space usage.
+32. `du`: Estimate file and directory space usage.
+33. `free`: Display memory usage.
+34. `top`: Monitor system performance and processes.
+35. `history`: View command history.
+36. `date`: Display or set the system date and time.
+37. `who`: Display users logged into the system.
+38. `whoami`: Display the current user.
+39. `passwd`: Change user password.
+40. `sudo`: Execute a command with administrative privileges.
+41. `adduser`: Create a new user.
+42. `userdel`: Delete a user.
+43. `groupadd`: Create a new group.
+44. `groupdel`: Delete a group.
+45. `apt`: Package manager for Ubuntu (e.g., `apt update`, `apt install`, `apt remove`).
+46. `dpkg`: Package manager for Debian-based systems (e.g., `dpkg -i`, `dpkg -r`).
+47. `shutdown`: Shutdown the system.
+48. `reboot`: Reboot the system.
+49. `uname`: Display system information (e.g., kernel version, architecture).
+50. `lsb_release`: Display Ubuntu release information.
+
+ IMP:  some commands might require administrative privileges, so I have to use `sudo` before them, and always exercise caution when using powerful commands that can modify or delete data.
