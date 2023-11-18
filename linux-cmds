@@ -1,6 +1,10 @@
+
+System Service Commands:
+sudo systemctl disable mongod.service
+
 Top 50 Linux cmds
 
-1. `ls`: List files and directories.
+1.`ls`: List files and directories.
 2. `cd`: Change directory.
 3. `pwd`: Print working directory.
 4. `mkdir`: Create a new directory.
